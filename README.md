@@ -1,0 +1,1 @@
+# Project will be used to learn C# fundamentals
