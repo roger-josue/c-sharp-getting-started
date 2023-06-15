@@ -5,11 +5,14 @@
 -Arrays
 -Loops
 -OOP
-    -Currently studying classes in-depth
-    -Class members (fields ,properties,constructors,methods)
-    -access modifiers
-    -static members and classes
-    -Interfaces (pending)
-    Inheritance (pending)
+    Currently studying classes in-depth:
+        -Class members (fields ,properties,constructors,methods)
+        -access modifiers
+        -static members and classes
+        -Interfaces (pending)
+        -Inheritance (pending)
+-References
+-Lists
+-LINQ
 
- Will add project examples soon
+ Will add project examples soon!
