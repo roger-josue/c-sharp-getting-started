@@ -1,8 +1,20 @@
-﻿internal class Program
+﻿using c_sharp_getting_started;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Madlib();
+        Sedan s = new Sedan(60);
+        // Call SpeedUp() here
+        Console.WriteLine(s.Describe());
+
+        Truck t = new Truck(45, 500);
+        // Call SpeedUp() here
+        Console.WriteLine(t.Describe());
+
+        Bicycle b = new Bicycle(10);
+        // Call SpeedUp() here
+        Console.WriteLine(b.Describe());
     }
 
     static void Madlib()
