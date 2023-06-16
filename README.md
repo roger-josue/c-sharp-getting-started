@@ -30,12 +30,12 @@
         Class members (fields ,properties,constructors,methods)
         access modifiers
         static members and classes
-        Interfaces (pending)
-        Inheritance (pending)
-### References
+        Interfaces
+        Inheritance
+### References (pending)
 
-### Lists
+### Lists (pending)
 
-### LINQ
+### LINQ (pending)
 
 ### Will add project examples soon!
