@@ -32,7 +32,7 @@
         static members and classes
         Interfaces
         Inheritance
-### References (pending)
+### References
 
 ### Lists (pending)
 
