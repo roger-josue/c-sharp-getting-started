@@ -1,4 +1,5 @@
 ﻿using c_sharp_getting_started;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 internal class Program
 {
@@ -18,7 +19,12 @@ internal class Program
 
         //Cipher.Encrypt();
 
-        QuizApp.RunQuiz();
+        //QuizApp.RunQuiz();
+
+        SocialProfile sam = new SocialProfile("Sam Drakkila", 30, "New York", "USA", "he/him");
+        string[] hobbies = { "listening to audiobooks and podcasts", "playing rec sports like bowling and kickball", "writing a speculative fiction novel", "reading advice columns" };
+        sam.SetHobbies(hobbies);
+        Console.WriteLine(sam.ViewProfile());
     }
 
     // static void Madlib()
