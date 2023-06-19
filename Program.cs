@@ -15,7 +15,10 @@ internal class Program
         //Bicycle b = new Bicycle(10);
         //// Call SpeedUp() here
         //Console.WriteLine(b.Describe());
-        Cipher.Encrypt();
+
+        //Cipher.Encrypt();
+
+        QuizApp.RunQuiz();
     }
 
     // static void Madlib()
