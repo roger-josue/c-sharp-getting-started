@@ -51,11 +51,11 @@
     String class
 
 
-### Arrays
-    ```
+### Arrays 
     Declaration and initialization
     accessing elements
-
+    Length property
+```
     string[] arr = {"hello", "hello"};
     int[] intArray = new int[] { 3, 4, 5 };
     int[] nums = new int[5];
@@ -63,7 +63,7 @@
     Console.WriteLine(num[0]);
     Console.WriteLine(num.Length);
 
-    ```
+```
 
 ### Loops
     for
