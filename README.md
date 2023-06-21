@@ -17,12 +17,61 @@
         \n \r \t
 
 ### Conditionals, logic and arithmetic operators
+    if
+    if else
+    switch
+    ternary ? :
+    ==
+    <=
+    >=
+    !=
+    <
+    >
+    +
+    -
+    /
+    *
+    %
+    +=
+    -=
+    *=
+    /=
+    &&
+    ||
 
 ### Methods
+    Optional parameters
+    void
+    return
+    out parameters
+    Expression-bodied methods
+    Lambda expressions
+    Math class
+    Array class
+    String class
+
 
 ### Arrays
+    ```
+    Declaration and initialization
+    accessing elements
+
+    string[] arr = {"hello", "hello"};
+    int[] intArray = new int[] { 3, 4, 5 };
+    int[] nums = new int[5];
+    nums[0] = 10;
+    Console.WriteLine(num[0]);
+    Console.WriteLine(num.Length);
+
+    ```
 
 ### Loops
+    for
+    while
+    do while
+    foreach
+    break
+    continue
 
 ### OOP
 
@@ -37,5 +86,3 @@
 ### Lists (pending)
 
 ### LINQ (pending)
-
-### Will add project examples soon!
