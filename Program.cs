@@ -21,10 +21,25 @@ internal class Program
 
         //QuizApp.RunQuiz();
 
-        SocialProfile sam = new SocialProfile("Sam Drakkila", 30, "New York", "USA", "he/him");
-        string[] hobbies = { "listening to audiobooks and podcasts", "playing rec sports like bowling and kickball", "writing a speculative fiction novel", "reading advice columns" };
-        sam.SetHobbies(hobbies);
-        Console.WriteLine(sam.ViewProfile());
+        //SocialProfile sam = new SocialProfile("Sam Drakkila", 30, "New York", "USA", "he/him");
+        //string[] hobbies = { "listening to audiobooks and podcasts", "playing rec sports like bowling and kickball", "writing a speculative fiction novel", "reading advice columns" };
+        //sam.SetHobbies(hobbies);
+        //Console.WriteLine(sam.ViewProfile());
+
+
+        Pupil pupil = new Pupil("Mezil-kree");
+        Storm castStormByPupil = pupil.CastWindStorm();
+        Console.WriteLine(castStormByPupil.Announce());
+
+        Mage mage = new Mage("Gul’dan");
+        Storm castStormByMage = mage.CastRainStorm();
+        Console.WriteLine(castStormByMage.Announce());
+
+        ArchMage archMage = new ArchMage("Nielas Aran");
+        Storm castStormByArchMage = archMage.CastRainStorm();
+        Storm castSecondStormByArchMage = archMage.CastLightningStorm();
+        Console.WriteLine(castStormByArchMage.Announce());
+        Console.WriteLine(castSecondStormByArchMage.Announce());
     }
 
     // static void Madlib()
