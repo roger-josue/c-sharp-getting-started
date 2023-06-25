@@ -1,5 +1,5 @@
 # Project will be used to learn C# fundamentals
-
+It does not have a valid project structure, just classes and interfaces spread all over the place. The main goal was not to handle a valid project structure, just to play around with the exercises as part of the course.
 ### Variables, data types
     verbatim 
         @""
@@ -83,6 +83,6 @@
         Inheritance
 ### References
 
-### Lists (pending)
+### Lists
 
-### LINQ (pending)
+### LINQ
